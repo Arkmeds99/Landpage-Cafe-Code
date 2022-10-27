@@ -1,0 +1,125 @@
+@media (max-width: 1430px){
+    body{
+        width: 100%;
+    }
+}
+
+@media (max-width: 991.98px) {  /* Começar o @media maior para o menor*/
+     /*---------------QUEM SOMOS  E ONDE ESTAMOS 1 -------------- */
+     .secao-com-texto{ /*Aumentar o padding do paragrafo*/
+        padding: 153px 25px;
+    }
+
+    .secao-com-texto p,
+    .secao-com-texto.onde-estamos p{ /*O pararagrafo tenha a largura da página*/
+        width: 100%;
+    }
+
+@media (max-width: 780px) {
+    /*------ CONTATOS --------*/
+   .contato{ /*Retirar imagem e colocar nova cor*/
+    background-image: none;
+    background-color: #D3AE71;
+   }
+    
+    .contato .texto-contato{ /*Centralizar o texto*/
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+    .contato h2{ /*aumentar o margin do h2*/
+        margin-bottom: 46px;
+    }
+}
+
+@media (max-width: 720px) {
+    /*---------------- SEÇÃO LADRILHOS 1 ------------------*/
+    .ladrilho .grande,
+    .ladrilho .medio{
+        width: 100%;
+    }
+
+    .ladrilho .pequeno,
+    .ladrilho .pequeno-grao{
+        width: 50%;
+    }
+    /* ----------RODAPÉ-------------- */
+    .rodape{ /*alinhamento e troca do fundo para preto*/
+        text-align: center;
+        background-image: none;
+        background-color: black;
+    }
+    
+    .rodape .logo img{ /* logo central e embaixo do outro*/
+        display: block;
+    }
+
+    .rodape ul{ /*menu embaixo do outro e espaçamento entre elementos*/
+        display: block;
+        width: 100%;
+        margin-bottom: 122px;
+        margin-top: 122px;
+    }
+
+    .rodape ul li{ /*colocar o menu embaixo do outro*/
+        display: block;
+    }
+
+    .rodape ul li a{ /*tamanho da fonte do menu*/
+        font-size: 2rem;
+    }
+
+    .rodape .redes-sociais{ /* logo redes embaixo do menu e espaçamento*/
+        float: none;
+        margin-bottom: 28px;
+    }
+}
+
+@media (max-width: 425px) {
+    /*---------------MENU-------------- */
+    .cabecalho .logo{ /* Colocar logo no meio e em bloco*/
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cabecalho nav{ /* colocar os menus no centro*/
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cabecalho nav ul li{ /* colocar menus um abaixo do outro*/
+        display: block;
+    }
+
+    .cabecalho nav ul li a{ /*Toda a área do menu ocupe a largura*/
+        width: 100%;
+        display: block;
+    }
+    /*---------------PAINEL-------------- */
+    .painel h2{  /*Diminui o tamanho da fonte do painel */
+        font-size: 2.5rem;
+    }
+    /*---------------QUEM SOMOS  E ONDE ESTAMOS 2 -------------- */
+
+    .secao-com-texto h2{ /*Dimnuir o tamanho dos h2's*/
+        font-size: 3rem;
+    }
+
+    .secao-com-texto p,
+    .secao-com-texto.onde-estamos p{ /*Dimnuir texto  do p para 20px*/ 
+        font-size: 2rem;
+    }
+    
+@media (max-width: 375px) {
+    /*---------------- SEÇÃO LADRILHOS 2 ------------------*/  
+    .ladrilho .pequeno,
+    .ladrilho .pequeno-grao{ /*Todos as imagens uma embaixo da outra*/
+        width: 100%;
+        background-size: cover;
+    }
+}    
+/*----------PARADA 1:26:30*/

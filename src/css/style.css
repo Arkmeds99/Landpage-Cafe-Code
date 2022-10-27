@@ -1,0 +1,193 @@
+html{
+    font-size: 62.5%;/* tamnho de fonte padrão = 16px. 62.5% de 16px = 10px. / 1.6 rem = 16px./ 2rem=20px etc */
+}
+
+body{
+   width: 1440px; /* Original 1440px*/
+   margin: 0 auto; /* centralizar a pagina*/
+   font-size: 1.6rem; /*Ou 16px */
+}
+
+/*---------------- SEÇÃO MENU ------------------*/
+.cabecalho{
+    padding: 30px 15px;
+    position: relative;
+}
+
+.logo{
+    background: url(../img/logo.jpg) center center no-repeat;
+    width: 85px;
+    height: 85px;
+    display: inline-block;
+}
+
+.logo h1{
+    font-size: 0; /*esconder o h1*/
+}
+
+.cabecalho nav{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+}
+
+.cabecalho ul li{
+    display: inline-block;
+    padding: 15px
+}
+
+.cabecalho ul li a:hover{
+    font-weight: bold;
+}
+/*---------------PAINEL-------------------*/
+.painel {
+    background: url(/src/img/painel.jpg) center center no-repeat;
+    width: 100%;
+    height: 620px;
+}
+
+.painel h2{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center; /*alinhamento central do texto*/
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*-----------------------SEÇÃO QUEM SOMOS---------------*/
+.secao-com-texto {
+    padding: 153px;
+    text-align: center;
+    clear: both; /* separa as img do ladrilhos das seções de textos*/
+}
+
+.secao-com-texto img{
+    width: 170px;
+    height: 170px;
+    margin-bottom: 70px; /*espaçamento entre img e h2*/
+}
+
+.secao-com-texto h2{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 37px; /*espaçamento entre h2 e p*/
+}
+
+.secao-com-texto p{
+    font-size: 18px;
+    font-weight: 300;
+    width: 702px; /* acerta a largura do p*/
+    margin: 0 auto; /*centralizar o p*/
+}
+/* ----------------LADRILHOS-------------*/
+.ladrilho div{
+    float: left; /*faz as img flutuar e ficar um do lado do outro*/
+}
+
+.ladrilho .grande{
+    background: url(/src/img/4.jpg) center center no-repeat;
+    height: 600px;
+    width: 50%; /*ocupa 50% esquerdo da pagina*/
+}
+
+.ladrilho .pequeno-grao {
+    background: url(/src/img/2.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%; /*ocupa 25% esquerdo da pagina*/
+}
+
+.ladrilho .pequeno {
+    background: url(/src/img/3.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%; /*ocupa 25% esquerdo da pagina*/
+}
+
+.ladrilho .medio {
+    background: url(/src/img/1.jpg) center center no-repeat;
+    height: 300px;
+    width: 50%; /*ocupa 50% esquerdo da pagina*/
+}
+
+/*---------------SEÇÃO ONDE ESTAMOS---------------*/
+.secao-com-texto.onde-estamos p{ /*quando há mais de uma classe juntas no mesmo elemento, colocar os nomes juntos sem espaço*/
+    font-size: 28px;
+    width: 480px; /* aumento da largura para dar quebra de 
+    " São Paulo"*/
+}
+/*------------CONTATO------------------------*/
+
+.contato {
+    background: url(/src/img/fundo-contato.jpg) center center no-repeat;
+    color:  white;
+    height: 600px;
+    position: relative;/*posicionar o class texto-contato*/
+}
+
+.contato .texto-contato{
+    position: absolute; /* permite posicionar a div na pagina*/
+    right: 30%;
+    top: 30%;
+}
+
+.contato h2{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 30px; /* espaçamento entre h2 e address*/
+}
+
+.contato address{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/*------------------ FOOTER------------------*/
+
+.rodape {
+    background: url(/src/img/fundo-rodape.jpg) center center no-repeat;
+    width: 100%;
+    background-size: cover; /*img cobrir toda a area*/
+    padding: 35px 30px; /*aumentar o espaçamento interno */
+}
+
+.rodape ul{
+    float: right; /* deslocar o menu para direita*/
+    margin-top: 30px;  
+}
+
+.rodape ul li{
+    display: inline-block; /*colocar menu um do lado do outro*/
+    padding: 15px
+}
+
+.rodape ul li a{ 
+    color:  white; /* colocar cor no menu*/
+}
+
+.rodape ul li a:hover{ 
+    font-weight: bold;
+}
+
+.rodape .copyright{
+    color: white;
+}
+
+.rodape .redes-sociais .face,
+.rodape .redes-sociais .insta{ /* definição de tamnho dos logos*/
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+
+.rodape .redes-sociais{ /*posicionamento no lado direito das logos*/
+    float: right;
+    clear: both;
+
+}
+
+.rodape .contudo-de-baixo{
+    margin-top: 30px;
+}
+
+/*PARADA 1:01:25/
